@@ -183,6 +183,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
     private static final int CMD_GET_FORBIDDEN_PLMNS = 48;
     private static final int EVENT_GET_FORBIDDEN_PLMNS_DONE = 49;
     private static final int CMD_SIM_GET_ATR = 50;
+    private static final int EVENT_SIM_GET_ATR_DONE = 51;
     private static final int CMD_TOGGLE_LTE = 99; // not used yet
     private static final int CMD_TOGGLE_2G = 998;
 
